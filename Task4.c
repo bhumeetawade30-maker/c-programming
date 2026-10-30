@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
 // Declare variables for lower limit, upper limit, loop counters, and a prime flag
 int lower, upper, i, j, isPrime;
