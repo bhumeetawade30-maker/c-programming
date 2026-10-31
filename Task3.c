@@ -18,7 +18,8 @@ int main() {
     printf("Enter your choice (1 to 4) : ");
     scanf("%d", &choice);
 
-    if (choice != 1 && choice != 2 && choice != 3 && choice != 4) {
+    if (choice != 1 && choice != 2 && choice != 3 && choice != 4)
+     {
         printf("Invalid input! Please enter a valid integer.\n");
     }
 
@@ -89,3 +90,5 @@ int main() {
     exit_program:
     return 0;
 }
+
+
